@@ -2,17 +2,18 @@
 
 #### DEFINICIA MERANIA A ZAKLADNE NAVRHNUTIE SYSTEMU
 
-Zakladaný návrhom je merať priebehy hydraulického tlaku pomocou meracieho zariadenia s nasledovnými požiadavkami
+  Zakladaný návrhom je merať priebehy hydraulického tlaku pomocou meracieho zariadenia s nasledovnými požiadavkami
 
 ##### Základne údaje pre zariadenie :
 
 
-merať Hydraulicky tlak na minimálne 6-ich meracích bodoch
-zobrazovať aktuálne namerané hodnoty
-zaznamenávanie nameraných hodnôt v reálnom čase
-dĺžka záznamu údajov čo najdlhšia (zakladny pozadovany cas je 24Hodin)
-vzorkovacia frekvencia musi byt cca 10 milisekund a menej
-Meranie bude predvádzane jednoduchými meracimi cidlami s vystupom 4-20mA. Ktore budu pripojene na Hydraulicky System (HS ) stroja. Na pripojenie sa predpoklada volne pristupne miesto s minimeskou . Predpokladana dlzka pripojenia meracich kablov k meracim bodom HS je cca 5–15metrov. Spojitost merania bude zabezpecena vzorkovanim
+* meranie Hydraulickeho tlaku na minimálne 6-ich meracích bodoch
+* zobrazovani aktuálne nameraných hodnôt
+* zaznamenávanie nameraných hodnôt v reálnom čase
+* dĺžka záznamu údajov čo najdlhšia (zakladny pozadovany cas je 24Hodin)
+* vzorkovacia frekvencia musi byt cca 10 milisekund a menej
+* Meranie bude predvádzane jednoduchými meracimi cidlami s vystupom 4-20mA. Ktore budu pripojene na Hydraulicky System (HS ) stroja. Na pripojenie sa predpoklada volne pristupne miesto s minimeskou . Predpokladana dlzka pripojenia meracich kablov k meracim bodom HS je cca 5–15metrov.
+* Spojitost merania bude zabezpecena vzorkovanim
 
 ##### Vyber vhodneho systemu pre meranie (cpu)
 
