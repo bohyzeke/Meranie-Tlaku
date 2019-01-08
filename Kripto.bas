@@ -36,7 +36,7 @@ Function splitCodeTemp(code As String, key As Integer)
   Dim i As Integer
   Dim codeTemp(CodeLen) As Byte
   Dim CodeLen2 As Byte
-  CodeLen2 = Len(code) \ 2
+  CodeLen2 = Round(Len(code) \ 2) ' Zaokruhlenie smerom nahor 03421454
   If CodeLen <> CodeLen2 Then
     Exitus
     For i = 1 To 4

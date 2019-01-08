@@ -16,6 +16,86 @@ Begin VB.Form FrmMain
    ScaleHeight     =   10215
    ScaleWidth      =   15120
    WindowState     =   2  'Maximized
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   7
+      Left            =   14280
+      TabIndex        =   42
+      Top             =   7080
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   6
+      Left            =   14280
+      TabIndex        =   41
+      Top             =   6240
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   5
+      Left            =   14280
+      TabIndex        =   40
+      Top             =   5400
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   4
+      Left            =   14280
+      TabIndex        =   39
+      Top             =   4560
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   3
+      Left            =   14280
+      TabIndex        =   38
+      Top             =   3720
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   2
+      Left            =   14280
+      TabIndex        =   37
+      Top             =   2880
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   1
+      Left            =   14280
+      TabIndex        =   36
+      Top             =   2040
+      Width           =   700
+   End
+   Begin VB.CheckBox Mshow 
+      Alignment       =   1  'Right Justify
+      Caption         =   "Show"
+      Height          =   255
+      Index           =   0
+      Left            =   14280
+      TabIndex        =   35
+      Top             =   1200
+      Width           =   700
+   End
    Begin MSComDlg.CommonDialog CommonDialog1 
       Left            =   7320
       Top             =   4920
@@ -232,7 +312,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -253,7 +333,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -274,7 +354,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -295,7 +375,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -316,7 +396,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -337,7 +417,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -358,7 +438,7 @@ Begin VB.Form FrmMain
       Alignment       =   2  'Center
       Enabled         =   0   'False
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -378,7 +458,7 @@ Begin VB.Form FrmMain
    Begin VB.TextBox TextNazov 
       Alignment       =   2  'Center
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
+         Name            =   "Arial"
          Size            =   8.25
          Charset         =   238
          Weight          =   700
@@ -425,7 +505,7 @@ Begin VB.Form FrmMain
             Style           =   5
             AutoSize        =   2
             Text            =   "Edo"
-            TextSave        =   "23:03"
+            TextSave        =   "21:48"
             Key             =   "TeXt"
          EndProperty
          BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
@@ -477,7 +557,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   34
       Top             =   7080
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -487,7 +567,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   33
       Top             =   6240
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -497,7 +577,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   32
       Top             =   5400
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -507,7 +587,7 @@ Begin VB.Form FrmMain
       Left            =   13275
       TabIndex        =   31
       Top             =   4560
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -517,7 +597,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   30
       Top             =   3720
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -527,7 +607,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   29
       Top             =   2880
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -537,7 +617,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   28
       Top             =   2040
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Hodnota 
       Alignment       =   1  'Right Justify
@@ -547,7 +627,7 @@ Begin VB.Form FrmMain
       Left            =   13320
       TabIndex        =   27
       Top             =   1200
-      Width           =   855
+      Width           =   700
    End
    Begin VB.Label Label6 
       Caption         =   "Label6"
@@ -780,9 +860,6 @@ Private Sub aa_Timer()
 End Sub
 
 
-
-
-
 '==============================================================
 'ADS Definicia casovaca
 '==============================================================
@@ -857,6 +934,7 @@ For i = 0 To PocetSnimacov - 1
     TextNazov(i).Text = Snimac(i).Name
     Snimac(i).Pen = CreatePen(PS_SOLID, 0, Snimac(i).LiColor) 'PenC
     TextNazov(i).BackColor = Snimac(i).LiColor
+    Mshow(i).Value = Snimac(i).Show
 Next i
 FrmMain.Picture2.Visible = False
 
@@ -872,7 +950,7 @@ Toolbar1.Buttons("TBAbout").Image = 8       'Tlacidlo Oprograme
 Toolbar1.Buttons("TBFileO").Image = 9       'Tlacidlo Otvor subor
 Toolbar1.Buttons("TBFileC").Image = 10      'Tlacidlo GrafClose
 '
-Live_Graf  'Priprava grafu a vykreslenie mriesky
+Live_Graf  'Priprava grafu a vykreslenie mriezky
 
 
 
@@ -1002,8 +1080,13 @@ FrmMain.Enabled = False
 
 End Sub
 
-
-
+'==============================================================
+'Zmena checkboxu na hlavnej obrazovke
+'==============================================================
+Private Sub Mshow_Click(Index As Integer)
+    Snimac(Index).Show = Mshow(Index).Value
+    PutINISetting "Snimac" & Index, "Show", Snimac(Index).Show, GV.IniFile
+End Sub
 
 '==============================================================
 'Scrollbar na upravu rychlosti vykreslovania grafu
@@ -1070,7 +1153,7 @@ Private Sub Picture2_MouseMove(Button As Integer, Shift As Integer, X As Single,
     Dim i As Integer
     tempo = HScrollData.Value
     Tempd = (tempo * 15 + X) & ""
-    If DCount > 0 Then
+    If DCount > 0 And Tempd < DCount Then
         Text3.Text = aNacita(Tempd).Time
         For i = 0 To PocetSnimacov - 1
             Hodnota(i).Caption = aNacita(Tempd).S(i)
@@ -1083,8 +1166,6 @@ Private Sub Picture2_MouseMove(Button As Integer, Shift As Integer, X As Single,
     TextY.Text = pHeight - Y
     
 End Sub
-
-
 
 
 
@@ -1149,12 +1230,12 @@ Private Sub Timer2_Timer()
         'i = Sin(0.1 * counter) * (pHeightHalf - 1) + pHeightHalf
         temp = Snimac_na_Pixel(StrSens(a) + 0, Snimac(a).Min, Snimac(a).Max, Snimac(a).Type)
         TempI = pHeight - temp - 25 - Snimac(a).Min
-        
+        If Snimac(a).Show = 1 Then
         Call SelectObject(hDCh, Snimac(a).Pen)
         Call MoveToEx(hDCh, pwidth - 3, Snimac(a).YLast, 0)
         Call LineTo(hDCh, pwidth - 2, TempI) ' i)  'temp)
         Call SelectObject(hDCh, hPenB)
-        
+        End If
         Call BitBlt(Picture1.hdc, 0, 0, _
                   pwidth, pHeight, hDCh, _
                   0, 0, SRCCOPY)
@@ -1164,8 +1245,6 @@ Private Sub Timer2_Timer()
     Counter = Counter + 1
     Timer2.Interval = t2Interval
 End Sub
- 
-
  
  
  
@@ -1477,10 +1556,11 @@ Function Ofline_Graf(X1 As Long)
 
 '      Call SelectObject(hDCh1, PIC1(k).Pen)
 '      Picture2.Line (i, pHeight - Previous)-(i + 1, pHeight - Actual)
-
-      Call SelectObject(hDCh1, PIC1(k).Pen)       ' nastavenie pera pre snimac
-      Call MoveToEx(hDCh1, i, pHeight - Previous, 0)     ' Nastavenie pera na predchadzajuci bod
-      Call LineTo(hDCh1, i + 1, pHeight - Actual)        ' Vykreslenie ciary po aktualny bod
+      If Snimac(k).Show = 1 Then
+        Call SelectObject(hDCh1, PIC1(k).Pen)       ' nastavenie pera pre snimac
+        Call MoveToEx(hDCh1, i, pHeight - Previous, 0)     ' Nastavenie pera na predchadzajuci bod
+        Call LineTo(hDCh1, i + 1, pHeight - Actual)        ' Vykreslenie ciary po aktualny bod
+      End If
     Next k
            
 

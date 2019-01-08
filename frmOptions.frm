@@ -3,7 +3,7 @@ Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form frmOptions 
    Caption         =   "Nastavenie programu"
-   ClientHeight    =   5460
+   ClientHeight    =   5415
    ClientLeft      =   2580
    ClientTop       =   1515
    ClientWidth     =   5445
@@ -11,7 +11,7 @@ Begin VB.Form frmOptions
    Icon            =   "frmOptions.frx":0000
    KeyPreview      =   -1  'True
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5460
+   ScaleHeight     =   5415
    ScaleWidth      =   5445
    Begin TabDlg.SSTab SSTab1 
       Height          =   4395
@@ -24,7 +24,6 @@ Begin VB.Form frmOptions
       _Version        =   393216
       Style           =   1
       Tabs            =   10
-      Tab             =   7
       TabsPerRow      =   5
       TabHeight       =   494
       TabMaxWidth     =   882
@@ -32,73 +31,85 @@ Begin VB.Form frmOptions
       ShowFocusRect   =   0   'False
       TabCaption(0)   =   "Snimac1"
       TabPicture(0)   =   "frmOptions.frx":000C
-      Tab(0).ControlEnabled=   0   'False
-      Tab(0).Control(0)=   "LabelCheck"
-      Tab(0).Control(1)=   "Label1(0)"
-      Tab(0).Control(2)=   "Frame1(0)"
-      Tab(0).Control(3)=   "Frame2(0)"
-      Tab(0).Control(4)=   "Check1"
-      Tab(0).Control(5)=   "TOName(0)"
-      Tab(0).Control(6)=   "LinCollor(0)"
-      Tab(0).Control(7)=   "CD1"
-      Tab(0).ControlCount=   8
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).Control(0)=   "Label1(0)"
+      Tab(0).Control(0).Enabled=   0   'False
+      Tab(0).Control(1)=   "Frame1(0)"
+      Tab(0).Control(1).Enabled=   0   'False
+      Tab(0).Control(2)=   "Frame2(0)"
+      Tab(0).Control(2).Enabled=   0   'False
+      Tab(0).Control(3)=   "Sens_Show(0)"
+      Tab(0).Control(3).Enabled=   0   'False
+      Tab(0).Control(4)=   "TOName(0)"
+      Tab(0).Control(4).Enabled=   0   'False
+      Tab(0).Control(5)=   "LinCollor(0)"
+      Tab(0).Control(5).Enabled=   0   'False
+      Tab(0).Control(6)=   "CD1"
+      Tab(0).Control(6).Enabled=   0   'False
+      Tab(0).ControlCount=   7
       TabCaption(1)   =   "Snimac2"
       TabPicture(1)   =   "frmOptions.frx":0028
       Tab(1).ControlEnabled=   0   'False
-      Tab(1).Control(0)=   "Label1(1)"
-      Tab(1).Control(1)=   "Frame1(1)"
-      Tab(1).Control(2)=   "Frame2(1)"
-      Tab(1).Control(3)=   "TOName(1)"
-      Tab(1).Control(4)=   "LinCollor(1)"
-      Tab(1).ControlCount=   5
+      Tab(1).Control(0)=   "Sens_Show(1)"
+      Tab(1).Control(1)=   "LinCollor(1)"
+      Tab(1).Control(2)=   "TOName(1)"
+      Tab(1).Control(3)=   "Frame2(1)"
+      Tab(1).Control(4)=   "Frame1(1)"
+      Tab(1).Control(5)=   "Label1(1)"
+      Tab(1).ControlCount=   6
       TabCaption(2)   =   "Snimac 3"
       TabPicture(2)   =   "frmOptions.frx":0044
       Tab(2).ControlEnabled=   0   'False
-      Tab(2).Control(0)=   "Label1(2)"
-      Tab(2).Control(1)=   "Frame1(2)"
-      Tab(2).Control(2)=   "Frame2(2)"
-      Tab(2).Control(3)=   "TOName(2)"
-      Tab(2).Control(4)=   "LinCollor(2)"
-      Tab(2).ControlCount=   5
+      Tab(2).Control(0)=   "Sens_Show(2)"
+      Tab(2).Control(1)=   "LinCollor(2)"
+      Tab(2).Control(2)=   "TOName(2)"
+      Tab(2).Control(3)=   "Frame2(2)"
+      Tab(2).Control(4)=   "Frame1(2)"
+      Tab(2).Control(5)=   "Label1(2)"
+      Tab(2).ControlCount=   6
       TabCaption(3)   =   "Snimac 4"
       TabPicture(3)   =   "frmOptions.frx":0060
       Tab(3).ControlEnabled=   0   'False
-      Tab(3).Control(0)=   "Label1(3)"
-      Tab(3).Control(1)=   "Frame1(3)"
-      Tab(3).Control(2)=   "Frame2(3)"
-      Tab(3).Control(3)=   "TOName(3)"
-      Tab(3).Control(4)=   "LinCollor(3)"
-      Tab(3).ControlCount=   5
+      Tab(3).Control(0)=   "Sens_Show(3)"
+      Tab(3).Control(1)=   "LinCollor(3)"
+      Tab(3).Control(2)=   "TOName(3)"
+      Tab(3).Control(3)=   "Frame2(3)"
+      Tab(3).Control(4)=   "Frame1(3)"
+      Tab(3).Control(5)=   "Label1(3)"
+      Tab(3).ControlCount=   6
       TabCaption(4)   =   "Snimac 5"
       TabPicture(4)   =   "frmOptions.frx":007C
       Tab(4).ControlEnabled=   0   'False
-      Tab(4).Control(0)=   "Label1(4)"
-      Tab(4).Control(1)=   "Frame1(4)"
-      Tab(4).Control(2)=   "Frame2(4)"
-      Tab(4).Control(3)=   "TOName(4)"
-      Tab(4).Control(4)=   "LinCollor(4)"
-      Tab(4).ControlCount=   5
+      Tab(4).Control(0)=   "Sens_Show(4)"
+      Tab(4).Control(1)=   "LinCollor(4)"
+      Tab(4).Control(2)=   "TOName(4)"
+      Tab(4).Control(3)=   "Frame2(4)"
+      Tab(4).Control(4)=   "Frame1(4)"
+      Tab(4).Control(5)=   "Label1(4)"
+      Tab(4).ControlCount=   6
       TabCaption(5)   =   "Snimac 6"
       TabPicture(5)   =   "frmOptions.frx":0098
       Tab(5).ControlEnabled=   0   'False
-      Tab(5).Control(0)=   "Label1(5)"
-      Tab(5).Control(1)=   "Frame1(5)"
-      Tab(5).Control(2)=   "Frame2(5)"
-      Tab(5).Control(3)=   "TOName(5)"
-      Tab(5).Control(4)=   "LinCollor(5)"
-      Tab(5).ControlCount=   5
+      Tab(5).Control(0)=   "Sens_Show(5)"
+      Tab(5).Control(1)=   "LinCollor(5)"
+      Tab(5).Control(2)=   "TOName(5)"
+      Tab(5).Control(3)=   "Frame2(5)"
+      Tab(5).Control(4)=   "Frame1(5)"
+      Tab(5).Control(5)=   "Label1(5)"
+      Tab(5).ControlCount=   6
       TabCaption(6)   =   "Snimac 7"
       TabPicture(6)   =   "frmOptions.frx":00B4
       Tab(6).ControlEnabled=   0   'False
-      Tab(6).Control(0)=   "Label1(6)"
-      Tab(6).Control(1)=   "Frame1(6)"
-      Tab(6).Control(2)=   "Frame2(6)"
-      Tab(6).Control(3)=   "TOName(6)"
-      Tab(6).Control(4)=   "LinCollor(6)"
-      Tab(6).ControlCount=   5
+      Tab(6).Control(0)=   "Sens_Show(6)"
+      Tab(6).Control(1)=   "LinCollor(6)"
+      Tab(6).Control(2)=   "TOName(6)"
+      Tab(6).Control(3)=   "Frame2(6)"
+      Tab(6).Control(4)=   "Frame1(6)"
+      Tab(6).Control(5)=   "Label1(6)"
+      Tab(6).ControlCount=   6
       TabCaption(7)   =   "Snimac 8"
       TabPicture(7)   =   "frmOptions.frx":00D0
-      Tab(7).ControlEnabled=   -1  'True
+      Tab(7).ControlEnabled=   0   'False
       Tab(7).Control(0)=   "Label1(7)"
       Tab(7).Control(0).Enabled=   0   'False
       Tab(7).Control(1)=   "Frame1(7)"
@@ -109,7 +120,9 @@ Begin VB.Form frmOptions
       Tab(7).Control(3).Enabled=   0   'False
       Tab(7).Control(4)=   "LinCollor(7)"
       Tab(7).Control(4).Enabled=   0   'False
-      Tab(7).ControlCount=   5
+      Tab(7).Control(5)=   "Sens_Show(7)"
+      Tab(7).Control(5).Enabled=   0   'False
+      Tab(7).ControlCount=   6
       TabCaption(8)   =   "ADS"
       TabPicture(8)   =   "frmOptions.frx":00EC
       Tab(8).ControlEnabled=   0   'False
@@ -121,16 +134,86 @@ Begin VB.Form frmOptions
       Tab(9).Control(0)=   "Label2"
       Tab(9).Control(1)=   "PocZaznamov"
       Tab(9).ControlCount=   2
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   7
+         Left            =   -72240
+         TabIndex        =   119
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   6
+         Left            =   -72240
+         TabIndex        =   118
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   5
+         Left            =   -72240
+         TabIndex        =   117
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   4
+         Left            =   -72240
+         TabIndex        =   116
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   3
+         Left            =   -72240
+         TabIndex        =   115
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   2
+         Left            =   -72240
+         TabIndex        =   114
+         Top             =   3960
+         Width           =   975
+      End
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
+         Height          =   255
+         Index           =   1
+         Left            =   -72240
+         TabIndex        =   113
+         Top             =   3960
+         Width           =   975
+      End
       Begin VB.TextBox PocZaznamov 
          Height          =   285
          Left            =   -72720
-         TabIndex        =   112
+         TabIndex        =   111
          Text            =   "Text1"
          Top             =   840
          Width           =   1815
       End
       Begin MSComDlg.CommonDialog CD1 
-         Left            =   -74880
+         Left            =   120
          Top             =   3840
          _ExtentX        =   847
          _ExtentY        =   847
@@ -144,7 +227,7 @@ Begin VB.Form frmOptions
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
-         TabIndex        =   111
+         TabIndex        =   110
          Top             =   840
          Width           =   375
       End
@@ -156,18 +239,6 @@ Begin VB.Form frmOptions
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
-         TabIndex        =   110
-         Top             =   840
-         Width           =   375
-      End
-      Begin VB.PictureBox LinCollor 
-         BackColor       =   &H80000001&
-         BorderStyle     =   0  'None
-         Height          =   375
-         Index           =   7
-         Left            =   3600
-         ScaleHeight     =   375
-         ScaleWidth      =   375
          TabIndex        =   109
          Top             =   840
          Width           =   375
@@ -176,7 +247,7 @@ Begin VB.Form frmOptions
          BackColor       =   &H80000001&
          BorderStyle     =   0  'None
          Height          =   375
-         Index           =   5
+         Index           =   7
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
@@ -188,7 +259,7 @@ Begin VB.Form frmOptions
          BackColor       =   &H80000001&
          BorderStyle     =   0  'None
          Height          =   375
-         Index           =   4
+         Index           =   5
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
@@ -200,7 +271,7 @@ Begin VB.Form frmOptions
          BackColor       =   &H80000001&
          BorderStyle     =   0  'None
          Height          =   375
-         Index           =   3
+         Index           =   4
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
@@ -212,7 +283,7 @@ Begin VB.Form frmOptions
          BackColor       =   &H80000001&
          BorderStyle     =   0  'None
          Height          =   375
-         Index           =   2
+         Index           =   3
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
@@ -224,7 +295,7 @@ Begin VB.Form frmOptions
          BackColor       =   &H80000001&
          BorderStyle     =   0  'None
          Height          =   375
-         Index           =   0
+         Index           =   2
          Left            =   -71400
          ScaleHeight     =   375
          ScaleWidth      =   375
@@ -232,11 +303,23 @@ Begin VB.Form frmOptions
          Top             =   840
          Width           =   375
       End
+      Begin VB.PictureBox LinCollor 
+         BackColor       =   &H80000001&
+         BorderStyle     =   0  'None
+         Height          =   375
+         Index           =   0
+         Left            =   3600
+         ScaleHeight     =   375
+         ScaleWidth      =   375
+         TabIndex        =   103
+         Top             =   840
+         Width           =   375
+      End
       Begin VB.TextBox TOName 
          Height          =   285
          Index           =   7
-         Left            =   1080
-         TabIndex        =   103
+         Left            =   -73920
+         TabIndex        =   102
          Text            =   "Text1"
          Top             =   840
          Width           =   2295
@@ -245,7 +328,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   6
          Left            =   -73920
-         TabIndex        =   101
+         TabIndex        =   100
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -254,7 +337,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   5
          Left            =   -73920
-         TabIndex        =   99
+         TabIndex        =   98
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -263,7 +346,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   4
          Left            =   -73920
-         TabIndex        =   97
+         TabIndex        =   96
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -272,7 +355,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   3
          Left            =   -73920
-         TabIndex        =   95
+         TabIndex        =   94
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -281,7 +364,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   2
          Left            =   -73920
-         TabIndex        =   93
+         TabIndex        =   92
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -290,7 +373,7 @@ Begin VB.Form frmOptions
          Height          =   285
          Index           =   1
          Left            =   -73920
-         TabIndex        =   91
+         TabIndex        =   90
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
@@ -298,25 +381,27 @@ Begin VB.Form frmOptions
       Begin VB.TextBox TOName 
          Height          =   285
          Index           =   0
-         Left            =   -73920
-         TabIndex        =   89
+         Left            =   1080
+         TabIndex        =   88
          Text            =   "Text1"
          Top             =   840
          Width           =   2415
       End
-      Begin VB.CheckBox Check1 
-         Caption         =   "Check1"
+      Begin VB.CheckBox Sens_Show 
+         Alignment       =   1  'Right Justify
+         Caption         =   "Zobrazit"
          Height          =   255
-         Left            =   -71400
+         Index           =   0
+         Left            =   2760
          TabIndex        =   86
          Top             =   3960
-         Width           =   255
+         Width           =   975
       End
       Begin VB.Frame Frame2 
          Caption         =   "Limit Snimaca"
          Height          =   1575
          Index           =   7
-         Left            =   240
+         Left            =   -74760
          TabIndex        =   55
          Top             =   2160
          Width           =   3735
@@ -780,7 +865,7 @@ Begin VB.Form frmOptions
          Caption         =   "Limit Snimaca"
          Height          =   1575
          Index           =   0
-         Left            =   -74760
+         Left            =   240
          TabIndex        =   15
          Top             =   2160
          Width           =   3735
@@ -897,7 +982,7 @@ Begin VB.Form frmOptions
          Caption         =   "Typ snimaca"
          Height          =   855
          Index           =   7
-         Left            =   240
+         Left            =   -74760
          TabIndex        =   12
          Top             =   1200
          Width           =   3735
@@ -1077,7 +1162,7 @@ Begin VB.Form frmOptions
          Caption         =   "Typ snimaca"
          Height          =   855
          Index           =   0
-         Left            =   -74760
+         Left            =   240
          TabIndex        =   4
          Top             =   1200
          Width           =   3735
@@ -1113,7 +1198,7 @@ Begin VB.Form frmOptions
          Caption         =   "Poèet zaznamov na subor"
          Height          =   375
          Left            =   -74760
-         TabIndex        =   113
+         TabIndex        =   112
          Top             =   840
          Width           =   2055
       End
@@ -1121,8 +1206,8 @@ Begin VB.Form frmOptions
          Caption         =   "Názov"
          Height          =   255
          Index           =   7
-         Left            =   240
-         TabIndex        =   102
+         Left            =   -74760
+         TabIndex        =   101
          Top             =   840
          Width           =   1095
       End
@@ -1131,7 +1216,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   6
          Left            =   -74760
-         TabIndex        =   100
+         TabIndex        =   99
          Top             =   840
          Width           =   1095
       End
@@ -1140,7 +1225,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   5
          Left            =   -74760
-         TabIndex        =   98
+         TabIndex        =   97
          Top             =   840
          Width           =   1095
       End
@@ -1149,7 +1234,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   4
          Left            =   -74760
-         TabIndex        =   96
+         TabIndex        =   95
          Top             =   840
          Width           =   1095
       End
@@ -1158,7 +1243,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   3
          Left            =   -74760
-         TabIndex        =   94
+         TabIndex        =   93
          Top             =   840
          Width           =   1095
       End
@@ -1167,7 +1252,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   2
          Left            =   -74760
-         TabIndex        =   92
+         TabIndex        =   91
          Top             =   840
          Width           =   1095
       End
@@ -1176,7 +1261,7 @@ Begin VB.Form frmOptions
          Height          =   255
          Index           =   1
          Left            =   -74760
-         TabIndex        =   90
+         TabIndex        =   89
          Top             =   840
          Width           =   1095
       End
@@ -1184,18 +1269,10 @@ Begin VB.Form frmOptions
          Caption         =   "Názov"
          Height          =   255
          Index           =   0
-         Left            =   -74760
-         TabIndex        =   88
+         Left            =   240
+         TabIndex        =   87
          Top             =   840
          Width           =   1095
-      End
-      Begin VB.Label LabelCheck 
-         Caption         =   "Zapisuj"
-         Height          =   255
-         Left            =   -72000
-         TabIndex        =   87
-         Top             =   3960
-         Width           =   615
       End
    End
    Begin VB.CommandButton cmdApply 
@@ -1273,6 +1350,7 @@ Private Sub Form_Load()
         LinCollor(i).BackColor = Snimac(i).LiColor
         Sens_Max(i) = Snimac(i).Max
         Sens_Min(i) = Snimac(i).Min
+        Sens_Show(i).Value = Snimac(i).Show
         If Snimac(i).Type = 0 Then
             Option1(i).Value = True
             Option2(i).Value = False
@@ -1304,6 +1382,7 @@ Public Sub SafeIni()
         Snimac(i).Name = TOName(i).Text
         Snimac(i).Max = Sens_Max(i).Text
         Snimac(i).Min = Sens_Min(i).Text
+        Snimac(i).Show = Sens_Show(i).Value
         If Option1(i).Value Then
             Snimac(i).Type = 0
         End If
@@ -1332,6 +1411,7 @@ Public Sub SafeIni()
         PutINISetting "Snimac" & a, "Type", Snimac(a).Type, GV.IniFile
         PutINISetting "Snimac" & a, "Max", Snimac(a).Max, GV.IniFile
         PutINISetting "Snimac" & a, "Min", Snimac(a).Min, GV.IniFile
+        PutINISetting "Snimac" & a, "Show", Snimac(a).Show, GV.IniFile
     Next a
     Dim c As Byte
 

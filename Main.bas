@@ -13,6 +13,7 @@ Type SENSOR
     Type As Integer
     Max  As Long
     Min  As Long
+    Show As Integer
     Pen As Long
     YLast As Long
     YNew As Long
@@ -69,64 +70,6 @@ Public Sub Main()
 
 End Sub
 
-' Funkcia na nahranie nastavenia z INI Suboru
-Public Function LoadIni()
-  
-    
-    Dim i As Byte
-    i = 0
-    For i = 0 To UBound(Snimac)
-    If GetINISetting("Snimac" & i, "Name", GV.IniFile) = "" Then
-        Snimac(i).Name = "Snimac" & i
-    Else
-        Snimac(i).Name = GetINISetting("Snimac" & i, "Name", GV.IniFile)
-    End If
-    
-    If GetINISetting("Snimac" & i, "Color", GV.IniFile) = "" Then
-        Snimac(i).LiColor = 0
-    Else
-        Snimac(i).LiColor = GetINISetting("Snimac" & i, "Color", GV.IniFile)
-    End If
-    
-    If GetINISetting("Snimac" & i, "Type", GV.IniFile) = "" Then
-        Snimac(i).Type = 0
-    Else
-        Snimac(i).Type = GetINISetting("Snimac" & i, "Type", GV.IniFile)
-    End If
-    
-    If GetINISetting("Snimac" & i, "Min", GV.IniFile) = "" Then
-        Snimac(i).Min = 0
-    Else
-        Snimac(i).Min = GetINISetting("Snimac" & i, "Min", GV.IniFile)
-    End If
-    If GetINISetting("Snimac" & i, "Max", GV.IniFile) = "" Then
-        Snimac(i).Max = 0
-    Else
-        Snimac(i).Max = GetINISetting("Snimac" & i, "Max", GV.IniFile)
-    End If
-    Next i
-    
-    For i = 0 To 5
-        If GetINISetting("ADS", "N" & i, GV.IniFile) = "" Then
-            Net.n(i) = 0
-        Else
-            Net.n(i) = GetINISetting("ADS", "N" & i, GV.IniFile)
-        End If
-    Next i
-    
-    If GetINISetting("ADS", "Port", GV.IniFile) = "" Then
-        Net.Port = 0
-    Else
-        Net.Port = GetINISetting("ADS", "Port", GV.IniFile)
-    End If
-    
-    If GetINISetting("Settings", "FileSize", GV.IniFile) = "" Then
-        GV.SetSize = 10000
-    Else
-        GV.SetSize = GetINISetting("Settings", "FileSize", GV.IniFile)
-    End If
-    
-End Function
 
 
 
