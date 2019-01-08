@@ -87,4 +87,4 @@ Program merania je s spúšťaný priamo z vizualizácie plc1 tlačítkom štart
 
 #### Aplikcny dennik
 
-[Aplikacny Dennik](https://github.com/bohyzeke/Meranie-Tlaku/blob/development/Historia)
+[Aplikacny Dennik](https://github.com/bohyzeke/Meranie-Tlaku/blob/development/Historia.md)
