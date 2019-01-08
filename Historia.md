@@ -1,9 +1,9 @@
 2019.01.08 v 1.1.11
 
-    Pridanie tlacidiel na skrytie vykreslovanych kriviek pre jednotlive grafy
-    opavene padanie Aplikacie pri nacitani kratkeho grafu pod 500 zaznamov
-    
-    
+    Pridanie policok na skrytie vykreslovanych kriviek pre jednotlive grafy
+    Pridanie policok aj do ini suboru
+    Opavene padanie Aplikacie pri nacitani kratkeho grafu pod 500 zaznamov
+       
     
 
 2018.4.12  v 1.1.10
