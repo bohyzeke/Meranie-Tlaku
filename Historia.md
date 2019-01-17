@@ -28,7 +28,8 @@
 
 2017.10.14
 
-    Nove Cpu a karta v PLC je nosia verzia TwinCat 2.11.22343 co prinieslo nekompatibilitu so starsou verziou – Upgrade PLC programu a instalacia noveho TC do PC
+    Nove Cpu a karta. V PLC je novsia verzia TwinCat 2.11.22343 co prinieslo nekompatibilitu so staršou verziou 
+    Upgrade PLC programu a instalacia noveho TC do PC
     pokus o rozbehanie plc programu na novom PLC CX1020   	     
 
 2017.10.13
@@ -89,15 +90,20 @@ Na zaznamovom stroji treba skopirovat a nahrat nasledovne subory a zaregistrovat
 
  2017.8.6   beta 1.0.5
 
-    Programovanie funkcie načítania uložených údajov. Odlaďovanie stávajúcich funkcii a úprava Toolbaru. Doplnenie ikon a priradenie funkcii tlačidlám. Úprava formulára O programe upravenie doplňujúcich informácií
+    Programovanie funkcie načítania uložených údajov. Odlaďovanie stávajúcich funkcii a úprava Toolbaru.
+    Doplnenie ikon a priradenie funkcii tlačidlám. 
+    Úprava formulára O programe upravenie doplňujúcich informácií
 
 2017.8.2   Verzia 1.0.4a
 
-    Dokončenie Grafu aby zobrazoval všetky krivky a pridanie novej funkcie na zmenu farby pre jednotlive krivky. Zobrazenie farby krivky. Chyba legenda s aktuálnym údajom (hodnota čidla)
+    Dokončenie Grafu aby zobrazoval všetky krivky a pridanie novej funkcie na zmenu farby pre jednotlive krivky.
+    Zobrazenie farby krivky. Chyba legenda s aktuálnym údajom (hodnota čidla)
 
 2017.8 1   beta 1.0.4
 
-    Pridanie online grafu a implementácia do programu zatiaľ neodladené iba zobrazuje sinusoidu. Pridanie ďalšieho časovača pre vykresľovanie grafu. Plánovanie funkcie pre zmenu farby a rozsahu zobrazenie aktuálnych hodnôt
+    Pridanie online grafu a implementácia do programu zatiaľ neodladené iba zobrazuje sinusoidu. 
+    Pridanie ďalšieho časovača pre vykresľovanie grafu. 
+    Plánovanie funkcie pre zmenu farby a rozsahu zobrazenie aktuálnych hodnôt
 
 2017.7.31	beta 1.0.3
 
@@ -105,15 +111,24 @@ Na zaznamovom stroji treba skopirovat a nahrat nasledovne subory a zaregistrovat
 
 2017.7.30  beta 1.0.2
 
-	 Vytvorenie funkcie na zapis casu a nameranych hodnot do TXT suboru. Jednotlive udaje su oddelene znakom '|'.   Postupnost ukladanych udajov."Datum_CAS_mS|Snimac1|Snimac2|Snimac3|Snimac4|Snimac5|Snimac6|Snimac7|Snimac8"
+    Vytvorenie funkcie na zapis casu a nameranych hodnot do TXT suboru. 
+    Jednotlive udaje su oddelene znakom '|'. Postupnost ukladanych udajov.
+    "Datum_CAS_mS|Snimac1|Snimac2|Snimac3|Snimac4|Snimac5|Snimac6|Snimac7|Snimac8"
 
 2017.7.29   beta 1.0.1
 
-	Vytvorenie Funkcie na ziskanie aktualneho casu zo systemu Windows. Vytvorenie Pola pre namerane hodnoty a spojenie nameranych udajov a casu. Uprava nastaveni a vytvorenie funkcie na ukladanie nastaveni do INI suboru. Vytvorenie funkcie pre nacitavanie INI suboru po starte programu. Vytvorenie Menu pre Program. Doplnenie programu o formular About. A jeho uprava.
+    Vytvorenie Funkcie na ziskanie aktualneho casu zo systemu Windows. 
+    Vytvorenie Pola pre namerane hodnoty a spojenie nameranych udajov a casu. 
+    Uprava nastaveni a vytvorenie funkcie na ukladanie nastaveni do INI suboru.
+    Vytvorenie funkcie pre nacitavanie INI suboru po starte programu.
+    Vytvorenie Menu pre Program. Doplnenie programu o formular About. A jeho uprava.
 
 2017.7.28	  beta 1.0.0
 
-	Definicia poziadaviek a vyber zakladneho PLC systemu. Zaroven vyber vyzualizacie a programovacieho prostredia, pre zapis udajov a grafickeho zobrazenia nameranych udajov. Zoznamenie sa s protokolom ADS. Vytvorenie prveho zakladneho spojenia TC_ADS a VisualBasic6. Vytvorenie zakladneho formulara a  formulara na Nastavenie cidiel a komunikacie ADS.
+    Definicia poziadaviek a vyber zakladneho PLC systemu.
+    Zaroven vyber vyzualizacie a programovacieho prostredia, pre zapis udajov a grafickeho zobrazenia nameranych udajov. 
+    Zoznamenie sa s protokolom ADS. Vytvorenie prveho zakladneho spojenia TC_ADS a VisualBasic6.
+    Vytvorenie zakladneho formulara a  formulara na Nastavenie cidiel a komunikacie ADS.
 
 
 
