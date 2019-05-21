@@ -1,0 +1,9 @@
+## OS specific ########
+.fuse_hidden*
+
+## Project files ######
+Data
+Beckhoff_projekt
+Dokumenty
+Revision
+build
